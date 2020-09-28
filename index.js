@@ -15,19 +15,19 @@ server.listen(port, () => console.log("api running"));
 //see a list users { }
 let users = [
   {
-    id: "a_unique_id",
+    id: 0,
     name: "Jane Doe",
     bio: "Not Tarzan's Wife, another Jane",
   },
 
   {
-    id: "a_unique_id",
-    name: "Jane Doe",
-    bio: "Not Tarzan's Wife, another Jane",
+    id: 1,
+    name: "Prisma Oxalate",
+    bio: "Not your wife",
   },
   {
-    id: "a_unique_id",
-    name: "Jane Doe",
-    bio: "Not Tarzan's Wife, another Jane",
+    id: 2,
+    name: "Solco Somerset",
+    bio: "Not my wife",
   },
 ];
